@@ -1,1 +1,1 @@
-# mtb-t2g-super-manifest
+# Code examples for TRAVEO™ T2G ModusToolbox™
