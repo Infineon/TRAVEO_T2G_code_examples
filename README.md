@@ -27,7 +27,7 @@ To use the additional code examples, set the following environment variable on y
 - Variable = CyRemoteManifestOverride
 - Path = https://github.com/Infineon/mtb-t2g-super-manifest/-/raw/main/mtb-super-manifest-fv2.xml
 
-*Figure 1. System variable setting*<BR><img src="./Images/SystemVariable.png" width="1000" />
+*Figure 1. System variable setting*<BR><img src="./Images/SystemVariable.png" width="800" />
 
 From the menu, run the Eclipse IDE for ModusToolbox™ 3.0 application. Then, open the Eclipse IDE windowv after workspace location setting.
 
@@ -43,10 +43,20 @@ From the menu, run the Eclipse IDE for ModusToolbox™ 3.0 application. Then, op
 *Figure 4. Select application*<BR><img src="./Images/AdditionalCE.png" width="1000" />
 
 ## Evariation kit
-The code examples supports the following types of boards:
-|   Overview    |KIT_T2G-B-H_EVK        |KIT_T2G-B-H_LITE         |
-|---------------|-----------------------|-------------------------|
-|MCU            |CYT4BFBCHE (272pin-BGA)|CYT4BF8CEE (176pin-TEQFP)|
+The code examples supports the following types of boards: <br>
+*Figure 5. Evariation kit view*<BR><img src="./Images/Board.png" width="600" />
 
 
 
+
+|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G-B-H_LITE          |
+|-------------------------------|------------------------|--------------------------|
+|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CEE (176pin-TEQFP) |
+|Kitprog3 programming/Debug     |✓                       |✓                        |
+|USER LEDs/Buttons/Potentiometer|✓                       |✓                        |
+|CAN FD                         |✓                       |✓                        |
+|Ethernet interface             |1Gbit EtherPHY          |10/100Mbit Ether PHY      | 
+|QSPI memory                    |512 MB x1               |512 MB x2                 |
+|Arduino                        |✓                       |✓                        |
+|Shield2go                      |N/A                     |✓                        |
+|MikroBUS                       |N/A                     |✓                        |
