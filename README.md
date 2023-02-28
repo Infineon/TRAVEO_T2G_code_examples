@@ -55,7 +55,7 @@ The code examples supports the following types of boards: <br>
 |Kitprog3 programming/Debug     |✓                       |✓                        |
 |USER LEDs/Buttons/Potentiometer|✓                       |✓                        |
 |CAN FD                         |✓                       |✓                        |
-|Ethernet interface             |1Gbit EtherPHY          |10/100Mbit Ether PHY      | 
+|Ethernet interface             |1 Gbps Ethernet         |10/100 Mbps Ethernet      | 
 |QSPI memory                    |512 MB x1               |512 MB x2                 |
 |Arduino                        |✓                       |✓                        |
 |Shield2go                      |N/A                     |✓                        |
