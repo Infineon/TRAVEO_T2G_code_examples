@@ -49,9 +49,9 @@ The code examples supports the following types of boards: <br>
 
 
 
-|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G-B-H_LITE          |
+|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G_B-H_LITE          |
 |-------------------------------|------------------------|--------------------------|
-|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CEE (176pin-TEQFP) |
+|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |
 |Kitprog3 programming/Debug     |✓                       |✓                        |
 |USER LEDs/Buttons/Potentiometer|✓                       |✓                        |
 |CAN FD                         |✓                       |✓                        |
