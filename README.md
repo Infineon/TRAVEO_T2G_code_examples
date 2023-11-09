@@ -56,7 +56,7 @@ The code examples support the following types of boards: <br>
 *Figure 7. KIT_T2G-B-E_LITE*<BR><img src="./Images/KIT_T2G-B-E_LITE.png" width="400" /><br><br>
 
 
-|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G-B-H_LITE          |KIT_T2G-B-H_LITE         |
+|   Overview|[KIT_T2G-B-H_EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_evk/)  |[KIT_T2G-B-H_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)  |[KIT_T2G-B-H_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-e_lite/)|
 |-------------------------------|------------------------|--------------------------|-------------------------|
 |MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |CYT2BL5CAS (100pin-LQFP) |
 |Kitprog3 programming/Debug     |✓                       |✓                        |✓                        |
