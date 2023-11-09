@@ -5,7 +5,11 @@ The additional code examples are available for TRAVEO™ T2G devices in this rep
 
 To use a code example into ModusToolbox™, follow the guide at **[How to setup](#How-to-setup)**.
 
-Please refer the [ModusToolbox™ software](https://github.com/Infineon/modustoolbox-software) for ModusToolbox™
+Please refer the [ModusToolbox™ software](https://github.com/Infineon/modustoolbox-software) for ModusToolbox™. It is recommended using latest ModusToolbox™ software.
+
+## Supported device
+- [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/): CYT4BFBCHE, CYT4BF8CDS
+- [TRAVEO™ T2G Body Entry MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2bl-series/): CYT2BL5CAS
 
 ## Application note
 AN235305 - GETTING STARTED WITH TRAVEO™ T2G FAMILY MCUS IN MODUSTOOLBOX™
@@ -27,16 +31,16 @@ Each Code example provides a README.md file to learn more about that code exampl
 ## How to setup
 To use the additional code examples, set the following environment variable on your PC.
 
-- Variable = CyRemoteManifestOverride
-- Path = https://github.com/Infineon/mtb-t2g-super-manifest/raw/main/mtb-super-manifest-fv2.xml
+- Variable name = CyRemoteManifestOverride
+- Variable value = https://github.com/Infineon/mtb-t2g-super-manifest/raw/main/mtb-super-manifest-fv2.xml
 
 *Figure 1. System variable setting*<BR><img src="./Images/SystemVariable.png" width="1000" />
 
-From the menu, run the Eclipse IDE for ModusToolbox™ 3.0 application. Then, open the Eclipse IDE window after workspace location setting.
+From the menu, run the Eclipse IDE of ModusToolbox™ application. Then, open the Eclipse IDE window after workspace location setting.
+- Click the **New Application** of Start in the Quick Panel, after that, open the Project creator.
 
 *Figure 2. ModusToolbox™ Eclipse IDE*<BR><img src="./Images/Modustoolbox.png" width="1000" />
 
-- Click the **New Application** of Start in the Quick Panel, after that, open the Project creator.
 - Select the Board support package (BSP) what want to use, and click the **Next>** button.
 
 *Figure 3. Project Creator*<BR><img src="./Images/ProjectCreator.png" width="1000" />
@@ -47,19 +51,19 @@ From the menu, run the Eclipse IDE for ModusToolbox™ 3.0 application. Then, op
 
 ## Evaluation kit
 The code examples support the following types of boards: <br>
-*Figure 5. Evaluation kit view*<BR><img src="./Images/Board.png" width="600" />
+*Figure 5. KIT_T2G-B-H_EVK*<BR><img src="./Images/KIT_T2G-B-H_EVK.png" width="600" /><br>
+*Figure 6. KIT_T2G-B-H_LITE*<BR><img src="./Images/KIT_T2G-B-H_LITE.png" width="400" /><br>
+*Figure 7. KIT_T2G-B-E_LITE*<BR><img src="./Images/KIT_T2G-B-E_LITE.png" width="400" /><br><br>
 
 
-
-
-|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G-B-H_LITE          |
-|-------------------------------|------------------------|--------------------------|
-|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |
-|Kitprog3 programming/Debug     |✓                       |✓                        |
-|USER LEDs/Buttons/Potentiometer|✓                       |✓                        |
-|CAN FD                         |✓                       |✓                        |
-|Ethernet interface             |1 Gbps Ethernet         |10/100 Mbps Ethernet      | 
-|QSPI memory                    |512 MB x1               |512 MB x2                 |
-|Arduino                        |✓                       |✓                        |
-|Shield2go                      |N/A                     |✓                        |
-|MikroBUS                       |N/A                     |✓                        |
+|   Overview                    |KIT_T2G-B-H_EVK         |KIT_T2G-B-H_LITE          |KIT_T2G-B-H_LITE         |
+|-------------------------------|------------------------|--------------------------|-------------------------|
+|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |CYT2BL5CAS (100pin-LQFP) |
+|Kitprog3 programming/Debug     |✓                       |✓                        |✓                        |
+|USER LEDs/Buttons/Potentiometer|✓                       |✓                        |✓                        |
+|CAN FD                         |✓                       |✓                        |✓                        |
+|Ethernet interface             |1 Gbps Ethernet         |10/100 Mbps Ethernet      |Not Available            | 
+|QSPI memory                    |512 MB x1               |512 MB x2                 |Not Available            | 
+|Arduino                        |✓                       |✓                        |✓                        |
+|Shield2go                      |Not Available           |✓                        |✓                        |
+|MikroBUS                       |Not Available           |✓                        |✓                        |
