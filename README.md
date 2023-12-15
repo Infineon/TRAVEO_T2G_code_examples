@@ -29,7 +29,8 @@ Each Code example provides a README.md file to learn more about that code exampl
 [TRAVEO™ T2G MCU Code examples](https://github.com/orgs/Infineon/repositories?q=mtb-t2g-&type=all&language=&sort=) on GitHub
 
 ## How to setup
-To use the additional code examples, set the following environment variable on your PC. <br> **Before perform this process, Modus toolbox should be closed if you run Modus toolbox.**
+To use the additional code examples, set the following environment variable on your PC. <br>
+**Before perform this process, Modus toolbox should be closed if you run Modus toolbox.**
 
 
 - Variable name = CyRemoteManifestOverride
