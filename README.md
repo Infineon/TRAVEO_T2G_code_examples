@@ -10,9 +10,10 @@ Please refer the [ModusToolbox™ software](https://github.com/Infineon/modustoo
 ## Supported device
 - [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/): CYT4BFBCHE, CYT4BF8CDS
 - [TRAVEO™ T2G Body Entry MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2bl-series/): CYT2BL5CAS
+- [TRAVEO™ T2G cluster 2D MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/): CYT4DNJBZS
 
 ## Application note
-AN235305 - GETTING STARTED WITH TRAVEO™ T2G FAMILY MCUS IN MODUSTOOLBOX™
+[AN235305](https://www.infineon.com/dgdl/?fileId=8ac78c8c8b6555fe018c1fddd8a72801) - GETTING STARTED WITH TRAVEO™ T2G FAMILY MCUS IN MODUSTOOLBOX™
 
 ## Code Example
 Each Code example provides a README.md file to learn more about that code example, as well as how to use it to create an application. Each README.md contains the following information:
@@ -55,17 +56,22 @@ From the menu, run the Eclipse IDE of ModusToolbox™ application. Then, open th
 The code examples support the following types of boards: <br>
 *Figure 5. KIT_T2G-B-H_EVK*<BR><img src="./Images/KIT_T2G-B-H_EVK.png" width="600" /><br>
 *Figure 6. KIT_T2G-B-H_LITE*<BR><img src="./Images/KIT_T2G-B-H_LITE.png" width="400" /><br>
-*Figure 7. KIT_T2G-B-E_LITE*<BR><img src="./Images/KIT_T2G-B-E_LITE.png" width="400" /><br><br>
+*Figure 7. KIT_T2G-B-E_LITE*<BR><img src="./Images/KIT_T2G-B-E_LITE.png" width="400" /><br>
+*Figure 8. KIT_T2G_C-2D-6M_LITE*<BR><img src="./Images/KIT_T2G_C-2D-6M_LITE.png" width="400" /><br><br>
 
 
-|   Overview|[KIT_T2G-B-H_EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_evk/)  |[KIT_T2G-B-H_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)  |[KIT_T2G-B-H_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-e_lite/)|
-|-------------------------------|------------------------|--------------------------|-------------------------|
-|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |CYT2BL5CAS (100pin-LQFP) |
-|Kitprog3 programming/Debug     |✓                       |✓                        |✓                        |
-|USER LEDs/Buttons/Potentiometer|✓                       |✓                        |✓                        |
-|CAN FD                         |✓                       |✓                        |✓                        |
-|Ethernet interface             |1 Gbps Ethernet         |10/100 Mbps Ethernet      |Not Available            | 
-|QSPI memory                    |512 MB x1               |512 MB x2                 |Not Available            | 
-|Arduino                        |✓                       |✓                        |✓                        |
-|Shield2go                      |Not Available           |✓                        |✓                        |
-|MikroBUS                       |Not Available           |✓                        |✓                        |
+|   Overview|[KIT_T2G-B-H_EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_evk/)  |[KIT_T2G-B-H_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)  |[KIT_T2G-B-E_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-e_lite/)|[KIT_T2G_C-2D-6M_LITE](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite/)|
+|-------------------------------|------------------------|--------------------------|-------------------------|-------------------------|
+|MCU                            |CYT4BFBCHE (272pin-BGA) |CYT4BF8CDS (176pin-TEQFP) |CYT2BL5CAS (100pin-LQFP) |CYT4DNJBZS (327pin-BGA) |
+|Kitprog3 programming/Debug     |✓ (USB Micro-B connector)|✓ (USB Micro-B connector)|✓ (USB Micro-B connector)|✓ (USB Type-C connector)|
+|USER LEDs/Buttons/Potentiometer|✓                       |✓                        |✓                        |✓                        |
+|CAN FD                         |✓                       |✓                        |✓                        |✓                        |
+|Ethernet interface             |10MBPS/100MBPS/1GBPS    |10/100 Mbps               |Not Available            |10MBPS/100MBPS/1GBPS     |
+|External memory                |512 MB serial NOR flash memory x1|512 MB Quad SPI NOR flash x2|Not Available|64 Mb HYPERRAM™ x1,<br> 512 Mb SEMPER™ flash x1|
+|Z-USB™ FX3 interface           |Not Available           |Not Available             |Not Available            |✓ (USB Type-C connector)     |
+|MIPI CSI-2 camera module interface|Not Available        |Not Available             |Not Available            |✓                        |
+|Dual LVDS to HDMI interface    |Not Available           |Not Available             |Not Available            |✓                        |
+|Arduino                        |✓                       |✓                        |✓                        |✓                        |
+|Shield2go                      |Not Available           |✓                        |✓                        |✓                        |
+|MikroBUS                       |Not Available           |✓                        |✓                        |✓                        |
+|Raspberry Pi interface         |Not Available           |Not Available             |Not Available            |✓                        |
