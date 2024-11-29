@@ -48,7 +48,7 @@ From the menu, run the Eclipse IDE of ModusToolbox™ application. Then, open th
 
 *Figure 3. Project Creator*<BR><img src="./Images/ProjectCreator.png" width="1000" />
 
-- Open the Select application window. You can use additional code example for TRAVEO™ T2G.
+- Open the Select application window. You can choose and use **Additional Code Examples** and **Advanced Solutions** for TRAVEO™ T2G.
 
 *Figure 4. Select application*<BR><img src="./Images/AdditionalCE.png" width="1000" />
 
