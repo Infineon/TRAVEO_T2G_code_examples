@@ -1,19 +1,17 @@
-# TRAVEO™ T2G ModusToolbox™
-TRAVEO™ T2G is available with ModusToolbox™.
-TRAVEO™ T2G code example is made up of two parts: the default code examples and the additional code examples.
-The additional code examples are available for TRAVEO™ T2G devices in this repository.
+# TRAVEO&#8482; T2G ModusToolbox&#8482;
+TRAVEO&#8482; T2G is available with ModusToolbox&#8482;.
+TRAVEO&#8482; T2G code example is made up of two parts: the default code examples and the additional code examples.
+The additional code examples are available for TRAVEO&#8482; T2G devices in this repository.
 
-To use a code example into ModusToolbox™, follow the guide at **[How to setup](#How-to-setup)**.
-
-Please refer the [ModusToolbox™ software](https://github.com/Infineon/modustoolbox-software) for ModusToolbox™. It is recommended using latest ModusToolbox™ software.
+Please refer the [ModusToolbox&#8482; software](https://github.com/Infineon/modustoolbox-software) for ModusToolbox&#8482;. It is recommended using latest ModusToolbox&#8482; software.
 
 ## Supported device
-- [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/): CYT4BFBCHE, CYT4BF8CDS
-- [TRAVEO™ T2G Body Entry MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2bl-series/): CYT2BL5CAS
-- [TRAVEO™ T2G cluster 2D MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/): CYT4DNJBZS
+- [TRAVEO&#8482; T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/): CYT4BFBCHE, CYT4BF8CDS
+- [TRAVEO&#8482; T2G Body Entry MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2bl-series/): CYT2BL5CAS
+- [TRAVEO&#8482; T2G cluster 2D MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/): CYT4DNJBZS
 
 ## Application note
-[AN235305](https://www.infineon.com/dgdl/?fileId=8ac78c8c8b6555fe018c1fddd8a72801) - GETTING STARTED WITH TRAVEO™ T2G FAMILY MCUS IN MODUSTOOLBOX™
+[AN235305](https://www.infineon.com/gated/infineon-an235305-getting-started-with-traveo-t2g-family-mcus-in-modustoolbox-applicationnotes-en_ef8d5799-c199-4f23-83a2-4fd63183071f) - GETTING STARTED WITH TRAVEO&#8482; T2G FAMILY MCUS IN MODUSTOOLBOX&#8482;
 
 ## Code Example
 Each Code example provides a README.md file to learn more about that code example, as well as how to use it to create an application. Each README.md contains the following information:
@@ -27,30 +25,8 @@ Each Code example provides a README.md file to learn more about that code exampl
 - **Run and Test**: The steps to follow to make sure the code is working properly and interact with it
 - **References**: Related documents and web pages
 
-[TRAVEO™ T2G MCU Code examples](https://github.com/orgs/Infineon/repositories?q=mtb-t2g-&type=all&language=&sort=) on GitHub
-
-## How to setup
-To use the additional code examples, set the following environment variable on your PC. <br>
-**Before perform this process, Modus toolbox should be closed if you run Modus toolbox.**
-
-
-- Variable name = CyRemoteManifestOverride
-- Variable value = https://github.com/Infineon/mtb-t2g-super-manifest/raw/main/mtb-super-manifest-fv2.xml
-
-*Figure 1. System variable setting*<BR><img src="./Images/SystemVariable.png" width="1000" />
-
-From the menu, run the Eclipse IDE of ModusToolbox™ application. Then, open the Eclipse IDE window after workspace location setting.
-- Click the **New Application** of Start in the Quick Panel, after that, open the Project creator.
-
-*Figure 2. ModusToolbox™ Eclipse IDE*<BR><img src="./Images/Modustoolbox.png" width="1000" />
-
-- Select the Board support package (BSP) what want to use, and click the **Next>** button.
-
-*Figure 3. Project Creator*<BR><img src="./Images/ProjectCreator.png" width="1000" />
-
-- Open the Select application window. You can choose and use **Additional Code Examples** and **Advanced Solutions** for TRAVEO™ T2G.
-
-*Figure 4. Select application*<BR><img src="./Images/AdditionalCE.png" width="1000" />
+## How to use the Graphics demonstration with ModusToolbox&#8482; and Qt Design Studio
+KIT_T2G-C-2D-6M_LITE has a demonstration code example ModusToolbox&#8482; and Qt Design Studio working together to output image. To use these graphics code examples, it is requored some configuration in advance. See the [Steps to use the Qt Design Studio using the ModusToolbox&#8482;](https://www.infineon.com/assets/row/public/documents/10/56/infineon-steps-to-use-the-qt-design-studio-using-the-modustoolbox-training-en.pdf?fileId=8ac78c8c9715623e01973b3fe6e520a4) for more details.
 
 ## Evaluation kit
 The code examples support the following types of boards: <br>
