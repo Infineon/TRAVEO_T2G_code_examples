@@ -51,3 +51,8 @@ The code examples support the following types of boards: <br>
 |Shield2go                      |Not Available           |✓                        |✓                        |✓                        |
 |MikroBUS                       |Not Available           |✓                        |✓                        |✓                        |
 |Raspberry Pi interface         |Not Available           |Not Available             |Not Available            |✓                        |
+
+## Developer Community
+For questions and support, use the TRAVEO™ T2G Forum:  
+- <https://community.infineon.com/t5/TRAVEO-T2G/bd-p/TraveoII>
+
