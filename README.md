@@ -19,14 +19,21 @@ Each Code example provides a README.md file to learn more about that code exampl
 - **Device**: The devices used by code example
 - **Board**: The evaluation kit used by code example
 - **Scope of work**: An abstract of code example
-- **Introduction**: A generic introduction on the used module and it main features
+- **Introduction**: A generic introduction on the module used and it main features
 - **Hardware setup**: The used hardware and how to configure it
 - **Implementation**: A detailed explanation of how to implement the module's configuration using HAL and/or PDL and exploits their features
 - **Run and Test**: The steps to follow to make sure the code is working properly and interact with it
 - **References**: Related documents and web pages
 
-## How to use the Graphics demonstration with ModusToolbox&#8482; and Qt Design Studio
-KIT_T2G-C-2D-6M_LITE has a demonstration code example ModusToolbox&#8482; and Qt Design Studio working together to output image. To use these graphics code examples, it is requored some configuration in advance. See the [Steps to use the Qt Design Studio using the ModusToolbox&#8482;](https://www.infineon.com/assets/row/public/documents/10/56/infineon-steps-to-use-the-qt-design-studio-using-the-modustoolbox-training-en.pdf?fileId=8ac78c8c9715623e01973b3fe6e520a4) for more details.
+## TRAVEO&#8482; T2G cluster 2D series graphics solutions
+KIT_T2G_C-2D-6M_LITE has two types of graphics solutions. 
+### Graphics demonstration with Qt Design Studio
+KIT_T2G_C-2D-6M_LITE has demonstration code examples ModusToolbox&#8482; and Qt Design Studio working together to output image. It will enable users to quickly start with the evaluation process and contribute to solution development using Qt design studio. Please make sure to check out [here](https://github.com/orgs/Infineon/repositories?language=&q=topic%3Agraphics+demonstration&sort=&type=all).<br>
+To use these graphics code examples, it is required some configuration in advance. See the [Steps to use the Qt Design Studio using the ModusToolbox&#8482;](https://www.infineon.com/assets/row/public/documents/10/56/infineon-steps-to-use-the-qt-design-studio-using-the-modustoolbox-training-en.pdf?fileId=8ac78c8c9715623e01973b3fe6e520a4) for more details.
+
+### Graphics code example using Infineon GFX middleware
+[GFX middleware](https://github.com/Infineon/tviic2d-gfx-mw) is standalone graphics driver software, it provides interface for graphics sub-system in T2G Cluster devices. KIT_T2G_C-2D-6M_LITE has code example using GFX middleware. It will allow users to develop using most of the functions of the graphics sub-system in T2G cluster devices. Please make sure to check out [here](https://github.com/orgs/Infineon/repositories?language=&q=topic%3Agraphics+gfx-middleware&sort=&type=all).
+
 
 ## Evaluation kit
 The code examples support the following types of boards: <br>
