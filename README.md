@@ -14,16 +14,13 @@ Please refer the [ModusToolbox&#8482; software](https://github.com/Infineon/modu
 [AN235305](https://www.infineon.com/assets/row/public/documents/10/42/infineon-an235305-getting-started-with-traveo-t2g-family-mcus-in-modustoolbox-applicationnotes-en.pdf?fileId=8ac78c8c8b6555fe018c1fddd8a72801) - GETTING STARTED WITH TRAVEO&#8482; T2G FAMILY MCUS IN MODUSTOOLBOX&#8482;
 
 ## Code Example
-Each Code example provides a README.md file to learn more about that code example, as well as how to use it to create an application. Each README.md contains the following information:
+There is code example on Github. Each Code example provides a README.md file to learn more about that code example, as well as how to use it to create an application.
 
-- **Device**: The devices used by code example
-- **Board**: The evaluation kit used by code example
-- **Scope of work**: An abstract of code example
-- **Introduction**: A generic introduction on the module used and it main features
-- **Hardware setup**: The used hardware and how to configure it
-- **Implementation**: A detailed explanation of how to implement the module's configuration using HAL and/or PDL and exploits their features
-- **Run and Test**: The steps to follow to make sure the code is working properly and interact with it
-- **References**: Related documents and web pages
+## How to apply ModusToolbox&#8482; to your own hardware
+All ModusToolbox&#8482; applications require a target BSP. Infineon provides BSPs for all of our kits, as well as generic BSPs for each chip architecture, to use as a starting point. For example, you can see generic BSPs in supported device. When working with your own hardware, you can modify an Infineon BSP to match that hardware, or you can create a BSP by specifying the device(s) it contains. The BSP Assistant helps to simplify the process of creating or modifying a BSP to suit your needs. See the following document how to use BSP Assistant tool.<br>
+
+- [ModusToolbox&#8482; BSP Assistant user guide](https://www.infineon.com/ModusToolboxBSPAssistant)
+- [MODUSTOOLBOX&#8482; USAGE: How to create own BSP using BSP-assistant tool for TRAVEO T2G/PSOC 4 HV](https://www.infineon.com/assets/row/public/documents/10/56/infineon-infineon-002-36696-0a-v-how-to-create-own-bsp-using-bsp-assistant-tool-training-en-training-en.pdf)
 
 ## TRAVEO&#8482; T2G cluster 2D series graphics solutions
 KIT_T2G_C-2D-6M_LITE has two types of graphics solutions. 
@@ -33,7 +30,6 @@ To use these graphics code examples, it is required some configuration in advanc
 
 ### Graphics code example using Infineon GFX middleware
 [GFX middleware](https://github.com/Infineon/tviic2d-gfx-mw) is standalone graphics driver software, it provides interface for graphics sub-system in T2G Cluster devices. KIT_T2G_C-2D-6M_LITE has code example using GFX middleware. It will allow users to develop using most of the functions of the graphics sub-system in T2G cluster devices. Please make sure to check out [here](https://github.com/orgs/Infineon/repositories?language=&q=topic%3Agraphics+gfx-middleware&sort=&type=all).
-
 
 ## Evaluation kit
 The code examples support the following types of boards: <br>
