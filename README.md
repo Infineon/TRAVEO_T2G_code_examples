@@ -44,9 +44,6 @@ The code examples support the following types of boards: <br>
 *Figure 3. KIT_T2G-B-E_LITE*<BR><img src="./Images/KIT_T2G-B-E_LITE.png" width="400" /><br>
 *Figure 4. KIT_T2G_C-2D-6M_LITE*<BR><img src="./Images/KIT_T2G_C-2D-6M_LITE.png" width="400" /><br>
 *Figure 5. KIT_T2G_C-2D-4M_LITE*<BR><img src="./Images/KIT_T2G_C-2D-4M_LITE.png" width="400" /><br>
-*Figure 6. KIT_T2G_C-2D-4M_LITE*<BR><img src="./Images/KIT_T2G_C-2D-4M_LITE.png" width="400" /><br>
-
-
 
 ## TRAVEO&trade; T2G Body High Series
 |Overview|[KIT_T2G-B-H_EVK](https://www.infineon.com/evaluation-board/KIT-T2G-B-H-EVK)|[KIT_T2G-B-H_LITE](https://www.infineon.com/evaluation-board/KIT-T2G-B-H-LITE)|[KIT_T2G-B-H-16M_LITE](https://www.infineon.com/design-resources/finder-selection-tools/evaluation-board)|
