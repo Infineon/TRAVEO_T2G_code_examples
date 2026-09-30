@@ -86,11 +86,26 @@ The code examples support the following types of boards: <br>
 |External memory                |64 Mb HYPERRAM&trade; x1,<br> 512 Mb SEMPER&trade; Flash x1|64 Mb HYPERRAM&trade; x1,<br> 512 Mb SEMPER&trade; Flash x1|
 |Z-USB™ FX3 interface           |✓ (USB Type-C connector)|✓ (USB Type-C connector)|
 |MIPI CSI-2 interface           |✓|✓|
-|FPD-Link interface             |HDMI interface for FPDLINK/Dual-FPDLINK output|Single-channel FPD-Link/LVDS interface for up to 1920 x 720 video output |
+|FPD-Link interface             |HDMI interface for FPDLINK/Dual-FPDLINK output<br>(See following table for verified HDMI Displays)|Single-channel FPD-Link/LVDS interface for up to 1920 x 720 video output |
 |Arduino                        |✓|✓|
 |Shield2go                      |✓|✓|
 |MikroBUS                       |✓|✓|
 |Raspberry Pi interface         |✓|✓|
+
+### List of verified HDMI Displays for KIT_T2G_C-2D-6M_LITE
+
+| #  | Type | Resolution | Comments      |
+|----|------|------------|---------------|
+| 1  | CEA Standards         | 640x480    | Single LVDS mode |
+| 2  | CEA Standards         | 720x480    | Single LVDS mode |
+| 3  | CEA Standards         | 1280x720   | Single LVDS mode |
+| 4  | CEA Standards         | 1440x480   | Single LVDS mode |
+| 5  | CEA Standards         | 1920x1080  | Dual LVDS mode   |
+| 6  | HDMI Embedded Display | 800x480    | Single LVDS mode, [WaveShare HDMI 800x480](https://www.waveshare.com/5inch-HDMI-LCD-H-V4.htm) |
+| 7  | HDMI Embedded Display | 1024x600   | Single LVDS mode, [WaveShare HDMI 1024x600](https://www.waveshare.com/product/7inch-hdmi-lcd-h-with-case.htm) |
+| 8  | HDMI Embedded Display | 1600x600   | Dual LVDS mode, [WaveShare HDMI 1600x600](https://www.waveshare.com/9.3inch-1600x600-LCD.htm) |
+| 9  | HDMI Embedded Display | 1920x720   | Dual LVDS mode, [WaveShare HDMI 1920x720](https://www.waveshare.com/12.3inch-1920x720-LCD.htm) | 
+
 
 ## Developer Community
 For questions and support, use the TRAVEO™ T2G Forum:  
